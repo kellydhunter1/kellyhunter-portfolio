@@ -135,9 +135,10 @@ header nav ul li a:hover {
     max-width: 250px;
     height: auto;
     margin: 20px;
-    border: 2px solid black;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
+    border: 1px solid rgb(209, 209, 209);
+    border-radius: 4px;
+    padding: 5px;
+}   
 
 #about-me p {
    width: 60%;
@@ -147,7 +148,62 @@ header nav ul li a:hover {
     background-color: var(--light-gray);
   }
 
+  .flex-container {
+      width: 80%;
+      margin: 0 auto;
+     display: flex;
+     flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    align-items: flex-start;
+  }
+
+  .app {
+      width: 100%;
+      margin: 20px 10px;
+      flex: 1;
+      order: 1;
+  }
+
+.app img {
+    border: 1px solid rgb(209, 209, 209);
+    border-radius: 4px;
+    padding: 5px;
+    width: 100%;
+ }
+      
+.app a {
+        color: var(--gray);
+        text-decoration: none;
+}   
+
+.app-and-title img:hover {
+        box-shadow: 2px 4px 8px 1px rgba(0, 0, 0, 0.2), 4px 6px 10px 2px rgba(0, 0, 0, 0.19);
+}
+
+.app h3 {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0 5px;
+    color: var(--gray);
+    text-transform: uppercase;
+    flex-wrap: nowrap;
+  }
+
+#feature-app {
+    order: 0;
+    flex: 2 2 100%;
+}
+
+#feature-app img {
+    width: 60%;
+    margin: 0 20% 0 20%;
+}
+
+#feature-app img:hover {
+    box-shadow: 2px 4px 8px 1px rgba(0, 0, 0, 0.2), 4px 6px 10px 2px rgba(0, 0, 0, 0.19);
+}
+
 #contact-me {
     background-color: rgba(190, 151, 231, .3);
-
   }
