@@ -125,7 +125,7 @@ header nav ul li a:hover {
 }
 
 .bio-image {
-    width: 30%;
+    width: 35%;
 }
 .bio-image img {
     width: 100%;
@@ -136,7 +136,7 @@ header nav ul li a:hover {
 }
 
 .bio-text {
-    width: 60%;
+    width: 50%;
 }
 
 .bio-text p {
@@ -209,24 +209,29 @@ header nav ul li a:hover {
   }
 
 .contact-info {
-    width: 100%;
+    width: 80%;
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
-    justify-items: flex-start;
+    justify-items: center;
+    align-content: center;
     align-items: center;
+}
+
+.contact-info div {
+    margin: 10px;
 }
 
 .contact-info h3 {
       color: var(--gray);
-      font-weight: lighter;
-      width: 20%;
-      margin: 5px;
+      font-size: 40px;
+      text-align: center;
   }
-  
-  #email {
-      flex-basis: 30%;
-  }
+.contact-info a {
+    font-size: 23px;
+    color: var(--gray)
+}
+
 /* style ends */
 
  /* MEDIA QUERY FOR TABLETS AND SMALLER */
@@ -301,5 +306,6 @@ width:60%;
 .contact-info h3 {
     width: 100%;
     text-align: center;
+    
 }
 }
