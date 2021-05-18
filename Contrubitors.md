@@ -1,1 +1,0 @@
-[Doganay KOSEOGLU](https://github.com/dkoode)
